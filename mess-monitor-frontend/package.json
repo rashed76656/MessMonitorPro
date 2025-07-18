@@ -1,0 +1,8 @@
+{
+     "name": "mess-monitor-frontend",
+     "scripts": {
+       "dev": "vite",
+       "build": "vite build",
+       "preview": "vite preview"
+     }
+   }
