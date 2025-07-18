@@ -1,0 +1,14 @@
+{
+     "name": "mess-monitor-backend",
+     "scripts": {
+       "start": "node dist/index.js",
+       "build": "esbuild index.ts --bundle --platform=node --target=node18 --outdir=dist --external:@neondatabase/serverless",
+       "dev": "tsx index.ts"
+     },
+     "dependencies": {
+       "express": "^4.18.2",
+       "cors": "^2.8.5",
+       "@neondatabase/serverless": "^0.7.2",
+       "drizzle-orm": "^0.29.0"
+     }
+   }
